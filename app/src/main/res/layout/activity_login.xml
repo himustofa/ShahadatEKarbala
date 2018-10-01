@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".login.LoginActivity">
+
+    <!-- Top Frame -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/design_frame" />
+    </LinearLayout>
+
+    <!-- Logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+        <ImageView
+            android:src="@drawable/design_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!-- EditText and Button -->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="35dp"
+        android:paddingLeft="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40">
+        <Spinner
+            android:id="@+id/spinner_language"
+            android:textAlignment="center"
+            android:textColor="@color/deep_grey_color"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_round"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/login_name"
+            android:textAlignment="center"
+            android:hint="@string/main_edtxt_name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/login_mobile"
+            android:textAlignment="center"
+            android:hint="@string/main_edtxt_mobile"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/login_submit"
+            android:text="@string/main_btn_submit"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/dark_grey_color"
+            android:background="@drawable/edit_text_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Ahle Bayat</string>
+    <string name="app_title_name">Ahle Bayat Rasul (PBUH) Conference</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- Toolbar Title -->
+    <string name="main_title">Main</string>
+    <string name="home_title">Home</string>
+    <string name="communication_title">Contact</string>
+    <string name="news_title">News</string>
+    <string name="members_title">Members</string>
+    <string name="management_title">Committee</string>
+    <string name="donation_title">Donation</string>
+    <string name="mahfil_title">Mahfil</string>
+    <string name="books_title">Books</string>
+    <string name="advertisement_title">Share</string>
+    <string name="registration_title">Registration</string>
+    <string name="about_title">About</string>
+    <string name="notice_title">Notice</string>
+    <string name="founder_title">Details of Mahfil</string>
+
+    <!-- Login Portion's String -->
+    <string name="main_edtxt_name">Your Name</string>
+    <string name="main_edtxt_mobile">Mobile Number</string>
+    <string name="main_btn_submit">Submit</string>
+
+    <!-- Home Portion's String -->
+    <!--<string name="home_txt_title">Ahle Bayat Mahfil</string>-->
+    <string name="home_txt_title_dec">In the memory of the Prophet Muhammad (SAW), the 33rd Ahle Bayat Mahfil was from the 1st to the 10th Muharram</string>
+    <string name="mahfil_details">About Mahfil</string>
+    <string name="website">Website</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">YouTube</string>
+    <string name="email">E-mail</string>
+
+    <!-- About Portion's String -->
+    <string name="apps_version">Apps Version: 2.1, Year: 2018</string>
+    <string name="developed_by">Developed by www.adroitsoft.net</string>
+
+    <!--Button-->
+    <string name="button1">Mahfil</string>
+    <string name="button2">Committee</string>
+    <string name="button3">Members</string>
+    <string name="button4">Registration</string>
+    <string name="button5">Books</string>
+    <string name="button6">Share</string>
+    <string name="button7">News</string>
+    <string name="button8">Contact</string>
+    <string name="button9">Donation</string>
+
+    <!-- Advertisement Portion's String -->
+    <string name="advert_quotation1">The Prophet Muhammad (SAW) said:-</string>
+    <string name="advert_quotation2">Promote if there is only one verse</string>
+    <string name="advert_click">Click the button below to share it</string>
+
+    <!-- Books Portion's String -->
+
+    <!-- Donation Portion's String -->
+    <string name="donation_quotation">Donate to the remembrance of the Prophet Muhammad (SAW) in a free hand</string>
+    <string name="donation_bank_info">
+        \nBank Name : Janata Bank Limited
+        \nBranch : Wasa (CTG) Corporate/Chit
+        \nAccount Name : Shahadate Karbala Mahfil Porichalana Paris
+        \nAccount No. 0000001014748
+    </string>
+    <string name="donation_bank">Bank Account</string>
+
+    <!-- Mahfil Video Portion's String -->
+    <string name="live_mahfil">Live Broadcast Mahfil</string>
+    <string name="live_mahfil_click">Click here to watch live streaming</string>
+    <string name="mahfil_list30">30th Mahfil List</string>
+    <string name="mahfil_list31">31th Mahfil List</string>
+    <string name="mahfil_list32">32th Mahfil List</string>
+
+    <!-- Management Portion's String -->
+
+    <!-- Members Portion's String -->
+
+    <!-- News Portion's String -->
+
+    <!-- Founder Portion's String -->
+    <string name="founder">Founder</string>
+    <string name="founder_name">Khotibe Bangal Mawlana Jalal Uddin Al-Kaderi (R)</string>
+    <string name="chairman">Chairman and Sponsor</string>
+    <string name="chairman_name">Alhaj Sufi Mohammad Mizanur Rahman</string>
+    <string name="details_name">Ahle Bayat Rasul (PBUH) Conferance</string>
+    <string name="details">
+        \nIslam is the natural religion. The meaning of Islam is peace. The main theme of Islam is to establish peace and justice through all injustice, injustice, oppression, oppression of the society. In the era of the Muharram on the 10th day Ashura Day is being celebrated as a great day from the creation of the world till today. For many reasons, this day was widely discussed in the history of Islam, but all other discussions fell in front of Imam Hossain (R) family martyr.
+        \n
+        \nIn the first phase of the Jamiatul Falah National Mosque in 1986, Khatibe Bangal Al-Haj Jalal Uddin Al-Kaderi (R) officially formed the beginning of the Karbala Mahfil at Shahadata in the heart of Ahl al Bayat from 1 Muharram to 10 Muharram. Islam does not agree with the excesses of the Yajidpiti and Shiah of Kharijis. For the purpose of presenting the view of Ahl as-Sunnat Wala deposited in this matter, for the last 33 years, Alhaj Sufi Mohammad Mizanur Rahman (Chairman: PHP Family) has been celebrated with the support of the Sunni people and with the help of the Sunni people, the true Islamic ideology is being celebrated with the Karbala Mahfil at Shahadata.
+        \n
+        \nThe international scholars of different countries of the world, including the prominent Olamaye Karmagans, gave special speeches, which today became the Karbala Mahfil at International Shahadata.
+    </string>
+
+    <!-- Communication Portion's String -->
+    <string name="com_full_name">Full Name*</string>
+    <string name="com_contact_number">Contact Number*</string>
+    <string name="com_email">E-mail Address</string>
+    <string name="com_subject">Subject*</string>
+    <string name="com_comments">Comments</string>
+    <string name="com_follow_up">Would you like us to follow up with you?</string>
+    <string name="com_submit">Submit</string>
+
+    <!-- RegistrationModel Portion's String -->
+    <string name="reg_txt_registration_form">Membership Form for Life Time</string>
+    <string name="reg_registration_fee">Membership form fee only 5,000tk</string>
+    <string name="reg_edtxt_name">Name</string>
+    <string name="reg_edtxt_father_name">Father\'s Name</string>
+    <string name="reg_edtxt_mother_name">Mother\'s Name</string>
+    <string name="reg_edtxt_birth_date">Birth Date</string>
+    <string name="reg_edtxt_relation">Relation</string>
+    <string name="reg_edtxt_present_address">Present Address</string>
+    <string name="reg_edtxt_permanent_address">Permanent Address</string>
+    <string name="reg_edtxt_email_address">E-mail Address</string>
+    <string name="reg_edtxt_national_identity_card_no">National Identity Card No.</string>
+    <string name="reg_edtxt_mobile">Mobile Number</string>
+    <string name="reg_btn_submit">Submit</string>
+
+    <!-- Language -->
+    <string-array name="language_array">
+        <item>বাংলা</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="reg_array_relation">
+        <item>Select your relation</item>
+        <item>Married</item>
+        <item>Unmarried</item>
+        <item>Divorce</item>
+        <item>Widow</item>
+    </string-array>
+
+    <string-array name="reg_array_blood_group">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+    <string name="title_activity_google_maps">Map</string>
+    <string name="google_maps_key">AIzaSyAM7iGluMvHUPoK_J0MgOFmg4rVaTLE7IU</string>
+
+    <string name="loading_title">Loading</string>
+    <string name="loading">Wait while loading...</string>
+</resources>

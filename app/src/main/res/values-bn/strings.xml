@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Ahle Bayat</string>
+    <string name="app_title_name">
+        আহলে বায়তে রাসুল (সাঃ) স্মরণে
+        \nআন্তর্জাতিক শাহাদাতে কারবালা মাহফিল
+    </string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- Toolbar Title -->
+    <string name="main_title">মেইন</string>
+    <string name="home_title">হোম</string>
+    <string name="communication_title">যোগাযোগ</string>
+    <string name="news_title">খবর</string>
+    <string name="members_title">সদস্য</string>
+    <string name="management_title">পর্ষদ</string>
+    <string name="donation_title">অনুদান</string>
+    <string name="mahfil_title">মাহফিল</string>
+    <string name="books_title">গ্রন্থ</string>
+    <string name="advertisement_title">প্রচার</string>
+    <string name="registration_title">নিবন্ধন</string>
+    <string name="about_title">সম্পর্কে</string>
+    <string name="notice_title">বিজ্ঞপ্তি</string>
+    <string name="founder_title">মাহফিল এর বিস্তারিত</string>
+
+    <!-- Login Portion's String -->
+    <string name="main_edtxt_name">Your Name</string>
+    <string name="main_edtxt_mobile">Mobile Number</string>
+    <string name="main_btn_submit">Submit</string>
+
+    <!-- Home Portion's String -->
+    <!--<string name="home_txt_title">আহলে বায়াত মাহফিল</string>-->
+    <string name="home_txt_title_dec">আহলে বায়তে রাসুল (সাঃ) স্মরণে ৩৩ তম মাহফিল পহেলা মহরম থেকে ১০ই মহরম পর্যন্ত।</string>
+    <string name="mahfil_details">মাহফিল এর বিস্তারিত</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="facebook">ফেসবুক পেইজ</string>
+    <string name="twitter">টুইটার</string>
+    <string name="youtube">ইউটিউব চ্যানেল</string>
+    <string name="email">ই-মেইল</string>
+
+    <!-- About Portion's String -->
+    <string name="apps_version">অ্যাপস সংস্করণঃ ১.০, বছরঃ ২০১৮</string>
+    <string name="developed_by">নির্মাণেঃ www.adroitsoft.net</string>
+
+    <!--Button-->
+    <string name="button1">মাহফিল</string>
+    <string name="button2">পর্ষদ</string>
+    <string name="button3">সদস্য</string>
+    <string name="button4">নিবন্ধন</string>
+    <string name="button5">গ্রন্থ</string>
+    <string name="button6">প্রচার</string>
+    <string name="button7">নিউজ</string>
+    <string name="button8">যোগাযোগ</string>
+    <string name="button9">অনুদান</string>
+
+    <!-- Advertisement Portion's String -->
+    <string name="advert_quotation1">নবী করিম (সঃ) বলেন-</string>
+    <string name="advert_quotation2">প্রচার কর যদি একটি মাত্র আয়াত হয়।</string>
+    <string name="advert_click">শেয়ার করার জন্য নিচের বাটনে প্রেস করুন</string>
+
+    <!-- Books Portion's String -->
+
+    <!-- Donation Portion's String -->
+    <string name="donation_quotation">আহলে বায়তে রাসুল (সাঃ) স্মরণে মাহফিলে মুক্ত হস্তে দান করুন</string>
+    <string name="donation_bank_info">
+        \nব্যাংক এর নামঃ জনতা ব্যাংক লিমিটেড
+        \nশাখাঃ ওয়াসা (সিটিজি) কর্পরেট/চট্টগ্রাম
+        \nএকাউন্ট নামঃ শাহাদাতে কারবালা পরিচালনা পর্ষদ
+        \nএকাউন্ট নাম্বারঃ 0000001014748
+    </string>
+    <string name="donation_bank">ব্যাংক হিসাব</string>
+
+    <!-- Mahfil Video Portion's String -->
+    <string name="live_mahfil">সরাসরি সম্প্রচার মাহফিল</string>
+    <string name="live_mahfil_click">সরাসরি সম্প্রচার দেখতে এখনে ক্লিক করুন</string>
+    <string name="mahfil_list30">৩০ তম মাহফিলের লিস্ট</string>
+    <string name="mahfil_list31">৩১ তম মাহফিলের লিস্ট</string>
+    <string name="mahfil_list32">৩২ তম মাহফিলের লিস্ট</string>
+
+    <!-- Management Portion's String -->
+
+    <!-- Members Portion's String -->
+
+    <!-- News Portion's String -->
+
+    <!-- Founder Portion's String -->
+    <string name="founder">প্রতিষ্ঠাতা</string>
+    <string name="founder_name">খতীবে বাঙ্গাল মাওলানা জালাল উদ্দিন আলকাদেরী (রহ)</string>
+    <string name="chairman">চেয়ারম্যান ও পৃষ্ঠপোষক</string>
+    <string name="chairman_name">আলহাজ্ব সূফী মোহাম্মদ মিজানুর রহমান</string>
+    <string name="details_name">আহলে বায়তে রাসুল (সাঃ) স্মরণে আন্তর্জাতিক শাহাদাতে কারবালা মাহফিল</string>
+    <string name="details">
+        \nইসলাম শ্বাশত ধর্ম। ইসলাম শব্দের অর্থই হল শান্তি। সমাজের সকল অবিচার, অনাচার, যুলুম, নির্যাতন দুরীভুত করে শান্তি ও ন্যায় প্রতিষ্ঠাই ইসলামের মূল প্রতিপাদ্য। যুগে যুগে মুহররমের ১০ তারিখ আশুরা দিবস পৃথিবীর সৃষ্টিলগ্ন থেকে অদ্যাবধি এক মহান দিন হিসেবে পালিত হয়ে আসছে। অনেক কারনে এ দিনটি ইসলামের ইতিহাসে ব্যাপক আলোচিত হলেও ইমাম হোসাইন(র.)’র এর সপরিবার শাহাদাতের সামনে অন্য সব আলোচনা চাপা পড়ে যায়।
+        \n
+        \n১৯৮৬ সালে জমিয়তুল ফালাহ জাতীয় মসজিদে সর্বপ্রথম খতিবে বাঙ্গাল আলহাজ্ব জালাল উদ্দিন আল-কাদেরী (রহ.)আনুষ্ঠানিকভাবে এতদাঞ্চালে ১ মুহাররম থেকে ১০ মুহররম পর্যন্ত আহলে বায়াত স্বরনে শাহাদাতে কারবালা মাহফিলের গোড়া পত্তন করেন। খারিজীদের ইয়াযিদপ্রীতি ও শীয়াদের বাড়াবাড়ি কোনটাই ইসলাম সম্মত নয়। এ বিষয়ে আহলে সুন্নত ওয়ালা জমা’য়াতের দৃষ্টিভঙ্গি তুলে ধরার মনসে আজ ৩৩ বছর যাবৎ নিরলসভাবে আলহাজ্ব সূফী মোহাম্মদ মিজান (চেয়ারম্যন: পিএইচপি ফ্যামিলি) প্রধান পৃষ্ঠপোষকতায় ও আপমার সুন্নি জনতার সহযোগিতায় প্রকৃত ইসলামী ভাবধারায় মহাসমারোহে পালিত হয়ে আসছে ‘শাহাদাতে কারবালা মাহফিল’।
+        \n
+        \nদেশের বিশিষ্ট ওলামায়ে কেরামগন সহ বিশ্বের বিভিন্ন দেশের আন্তর্জাতিক স্কলারগন বিশেষ বক্তব্য প্রদান করেন যা আজ আন্তর্জাতিক শাহাদাতে কারবালা মাহফিলে পরিনত হয়েছে।
+    </string>
+
+
+    <!-- Communication Portion's String -->
+    <string name="com_full_name">সম্পূর্ণ নাম*</string>
+    <string name="com_contact_number">যোগাযোগের নম্বর*</string>
+    <string name="com_email">ই-মেইল ঠিকানা</string>
+    <string name="com_subject">বিষয়*</string>
+    <string name="com_comments">মন্তব্য</string>
+    <string name="com_follow_up">আপনি কি আমাদের সাথে অনুসরণ করতে চান?</string>
+    <string name="com_submit">দাখিল করুন</string>
+
+    <!-- RegistrationModel Portion's String -->
+    <string name="reg_txt_registration_form">আজীবন সদস্য ফরম</string>
+    <string name="reg_registration_fee">আজীবন সদস্য ফি ৫,০০০/= টাকা</string>
+    <string name="reg_edtxt_name">নাম</string>
+    <string name="reg_edtxt_father_name">পিতার নাম</string>
+    <string name="reg_edtxt_mother_name">মাতার নাম</string>
+    <string name="reg_edtxt_birth_date">জন্মতারিখ</string>
+    <string name="reg_edtxt_relation">সম্পর্ক</string>
+    <string name="reg_edtxt_present_address">বর্তমান ঠিকানা</string>
+    <string name="reg_edtxt_permanent_address">স্থায়ী ঠিকানা</string>
+    <string name="reg_edtxt_email_address">ই-মেইল</string>
+    <string name="reg_edtxt_national_identity_card_no">জাতীয় পরিচয় পত্র নং</string>
+    <string name="reg_edtxt_mobile">মোবাইল নম্বর</string>
+    <string name="reg_btn_submit">দাখিল করুন</string>
+
+    <!-- Language -->
+    <string-array name="language_array">
+        <item>বাংলা</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="reg_array_relation">
+        <item>সম্পর্ক নির্বাচন করুন</item>
+        <item>Married</item>
+        <item>Unmarried</item>
+        <item>Divorce</item>
+        <item>Widow</item>
+    </string-array>
+
+    <string-array name="reg_array_blood_group">
+        <item>রক্ত গ্রুপ নির্বাচন করুন</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+    <string name="title_activity_google_maps">Map</string>
+    <string name="google_maps_key">AIzaSyAM7iGluMvHUPoK_J0MgOFmg4rVaTLE7IU</string>
+
+
+    <string name="loading_title">লোডিং</string>
+    <string name="loading">দয়া করে অপেক্ষা করুন...</string>
+</resources>

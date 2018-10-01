@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mahfil_details_nav_id"
+            android:title="@string/mahfil_details"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp" />
+        <item
+            android:id="@+id/website_nav_id"
+            android:title="@string/website"
+            android:icon="@drawable/ic_website" />
+        <item
+            android:id="@+id/facebook_nav_id"
+            android:title="@string/facebook"
+            android:icon="@drawable/ic_facebook" />
+        <item
+            android:id="@+id/twitter_nav_id"
+            android:title="@string/twitter"
+            android:icon="@drawable/ic_twitter" />
+        <item
+            android:id="@+id/youtube_nav_id"
+            android:title="@string/youtube"
+            android:icon="@drawable/ic_youtube" />
+        <item
+            android:id="@+id/email_nav_id"
+            android:title="@string/email"
+            android:icon="@drawable/ic_email_black_24dp" />
+        <item
+            android:id="@+id/about_nav_id"
+            android:title="@string/about_title"
+            android:icon="@drawable/ic_infomation" />
+        <!--<item
+            android:id="@+id/log_out"
+            android:title="Log Out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp" />-->
+    </group>
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shahadat_e_karbala.com.shahadatekarbala">
+
+    <!-- Image Save -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+    Google Maps
+    The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+    Google Maps Android API v2, but you must specify either coarse or fine
+    location permissions for the 'MyLocation' functionality.
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--Check internet connection-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/home_title"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".advertisement.AdvertisementActivity"
+            android:label="@string/advertisement_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".books.BooksActivity"
+            android:label="@string/books_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".donation.DonationActivity"
+            android:label="@string/donation_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".mahfilvideo.MahfilVideoActivity"
+            android:label="@string/mahfil_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".management.ManagementActivity"
+            android:label="@string/management_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".members.MembersActivity"
+            android:label="@string/members_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".news.NewsActivity"
+            android:label="@string/news_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".registration.RegistrationActivity"
+            android:label="@string/registration_title"
+            android:parentActivityName=".HomeActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".communication.CommunicationActivity"
+            android:label="@string/communication_title"
+            android:parentActivityName=".HomeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".founder.FounderActivity"
+            android:label="@string/founder_title"
+            android:parentActivityName=".HomeActivity" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAM7iGluMvHUPoK_J0MgOFmg4rVaTLE7IU" />
+
+        <activity
+            android:name=".communication.GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps" />
+
+    </application>
+
+</manifest>

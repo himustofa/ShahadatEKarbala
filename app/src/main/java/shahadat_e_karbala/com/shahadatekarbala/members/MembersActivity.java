@@ -1,0 +1,93 @@
+package shahadat_e_karbala.com.shahadatekarbala.members;
+
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Toast;
+
+import shahadat_e_karbala.com.shahadatekarbala.R;
+import shahadat_e_karbala.com.shahadatekarbala.language.LocaleHelper;
+
+public class MembersActivity extends AppCompatActivity {
+
+    private ProgressDialog progress;
+    private WebView myWebViewMain;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_members);
+
+        //===============================================| Change Actionbar Title
+        ActionBar bar = getSupportActionBar();
+        bar.setTitle(getResources().getString(R.string.members_title));
+
+        myWebViewMain = (WebView) findViewById(R.id.members_web_view_id);
+        startWebView("http://shahadat-e-karbala.com/lifetiemmember/");
+    }
+
+
+    private void startWebView(String url) {
+
+        WebSettings settings = myWebViewMain.getSettings();
+
+        settings.setJavaScriptEnabled(true);
+        myWebViewMain.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);
+
+        myWebViewMain.getSettings().setBuiltInZoomControls(true);
+        myWebViewMain.getSettings().setUseWideViewPort(true);
+        myWebViewMain.getSettings().setLoadWithOverviewMode(true);
+
+        progress = new ProgressDialog(this);
+        progress.setTitle(getResources().getString( R.string.loading_title));
+        progress.setMessage(getResources().getString( R.string.loading));
+        progress.setCancelable(false); // disable dismiss by tapping outside of the dialog
+        progress.show();
+
+        myWebViewMain.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                view.loadUrl(url);
+                return true;
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                if (progress.isShowing()) {
+                    progress.dismiss();
+                }
+            }
+
+            @Override
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                Toast.makeText(getApplicationContext(), "Error:" + description, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        myWebViewMain.loadUrl(url);
+    }
+
+    //===============================================| Language Change
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(LocaleHelper.onAttach(newBase));
+    }
+
+    //===============================================| For Activity Starting and Closing
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+}

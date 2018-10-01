@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white_color"
+    tools:context=".registration.RegistrationActivity">
+
+    <TextView
+        android:textColor="@color/dark_grey_color"
+        android:textSize="25dp"
+        android:text="@string/reg_txt_registration_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/reg_registration_fee"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Passport Photo -->
+            <ImageView
+                android:id="@+id/reg_photo"
+                android:clickable="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/image_border"
+                android:src="@drawable/add_photo_icon"
+                android:layout_gravity="left"
+                android:layout_width="140dp"
+                android:layout_height="140dp" />
+
+            <!-- Full Name -->
+            <EditText
+                android:id="@+id/reg_name"
+                android:inputType="textPersonName"
+                android:textColor="@color/deep_grey_color"
+                android:hint="@string/reg_edtxt_name"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Father's Name -->
+            <EditText
+                android:id="@+id/reg_father_name"
+                android:inputType="textPersonName"
+                android:textColor="@color/deep_grey_color"
+                android:hint="@string/reg_edtxt_father_name"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Mothers's Name -->
+            <EditText
+                android:id="@+id/reg_mother_name"
+                android:inputType="textPersonName"
+                android:textColor="@color/deep_grey_color"
+                android:hint="@string/reg_edtxt_mother_name"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Relation -->
+            <Spinner
+                android:id="@+id/spinner_reg_relation"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/deep_grey_color"
+                android:entries="@array/reg_array_relation"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <!-- Birth Date and Blood Group -->
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+                    <EditText
+                        android:id="@+id/reg_birth"
+                        android:hint="@string/reg_edtxt_birth_date"
+                        android:textColor="@color/deep_grey_color"
+                        android:inputType="date"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/edit_text_border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:clickable="true"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+                    <Spinner
+                        android:id="@+id/spinner_reg_blood_group"
+                        android:textColor="@color/deep_grey_color"
+                        android:entries="@array/reg_array_blood_group"
+                        android:background="@drawable/edit_text_border"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Mobile and NID -->
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+                    <EditText
+                        android:id="@+id/reg_mobile"
+                        android:inputType="phone"
+                        android:textColor="@color/deep_grey_color"
+                        android:hint="@string/reg_edtxt_mobile"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/edit_text_border_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50">
+                    <EditText
+                        android:id="@+id/reg_nid"
+                        android:inputType="text"
+                        android:textColor="@color/deep_grey_color"
+                        android:hint="@string/reg_edtxt_national_identity_card_no"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edit_text_border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/reg_email"
+                android:inputType="textWebEmailAddress"
+                android:hint="@string/reg_edtxt_email_address"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/deep_grey_color"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Present Address -->
+            <EditText
+                android:id="@+id/reg_present_address"
+                android:hint="@string/reg_edtxt_present_address"
+                android:gravity="top"
+                android:textColor="@color/deep_grey_color"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapSentences|textAutoCorrect|text|textMultiLine"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <!-- Permanent Address -->
+            <EditText
+                android:id="@+id/reg_permanent_address"
+                android:hint="@string/reg_edtxt_permanent_address"
+                android:gravity="top"
+                android:textColor="@color/deep_grey_color"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapSentences|textAutoCorrect|text|textMultiLine"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <Button
+                android:id="@+id/reg_submit"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="@string/reg_btn_submit"
+                android:textColor="@color/white_color"
+                android:background="@color/dark_grey_color"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
